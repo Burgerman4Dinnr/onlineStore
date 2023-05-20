@@ -18,7 +18,7 @@ const About =()=> {
                 </div>
                 <div className="col-md-6">
                     <div className="aboutImage">
-                        <img src="/images/lieutenantSam.jpg" alt="placeholder img" className="img-fluid"/>
+                        <img src="/images/lieutenantSam.jpg" alt="Uncle Sam letting you know you should always shop at Euro Lieutenant" className="img-fluid"/>
                     </div>
                 </div>
             </div>

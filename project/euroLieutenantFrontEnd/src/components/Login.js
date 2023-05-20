@@ -11,7 +11,7 @@ const Login = () => {
   
     // Perform validation on form inputs
     if (!username || !password) {
-      alert('Please fill in all fields');
+      alert('[Incorrect input] Please Try Again.');
       return;
     }
   
@@ -59,12 +59,6 @@ const Login = () => {
                     value={password}
                     onChange={(event) => setPassword(event.target.value)}
                   />
-                </div>
-                <div className="form-group form-check">
-                  <input type="checkbox" className="form-check-input" id="remember-me" />
-                  <label className="form-check-label" htmlFor="remember-me">
-                    Remember me
-                  </label>
                 </div>
                 <button type="submit" className="btn btn-primary btn-block">
                   Login
