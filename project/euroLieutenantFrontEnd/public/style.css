@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.surprise {
+    text-decoration: none;
+    border: solid 50px white;
+    background-color: white;
+    border-radius: 5px;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.surpriseText {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.socialIcon
+
+body {
+    background-color:#111111;
+}
+
+.n1, .n2 {
+    border-left: 2px solid white;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.aboutImage {
+    margin-top: 100px;
+}
+
+.section2 {
+    background-color: rgb(60, 1, 1);
+    margin-top: 100px;
+    border-radius: 5px;
+    border: black solid 4px;
+    margin-bottom: 10px
+}
+
+.catSect {
+    margin-top: 100px;
+    color: white;
+    background-color: red;
+    border: red solid 5px;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.product-price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+  -webkit-text-stroke: 1px #000;
+}
+
+
+
+.product-desc {
+    border-top: white solid 2px;
+}
+
+.secCat {
+    background-color: blue;
+    margin-top: 30%;
+}
+
+.tit {
+    color: white;
+}
+
+.des {
+    color: white;
+}
+
+.aboutParagraph {
+    color: white;
+}
+
+.top-picks {
+    margin-top: 50px;
+}
+
+.top-pick {
+    margin-top: 100px;
+}
+
+footer {
+    text-decoration: none;
+    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0, 1), rgba(139, 1, 1, 0.5));
+    padding-block: 20px;
+}
+
+.locationTag {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.footerLi {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.footer-stuff1 li {
+    list-style: none;
+}
+
+.card {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.supportHelp {
+    color: white;
+}
+
+.supportTabs {
+    margin-top: 100px;
+}
+
+.euroLieutenant {
+    width: 83.5px;
+    height: 47.25px;
+    margin-top: 10px;
+}
+
+.carousel {
+    margin-top: 100px;
+}
+
+.popProduct {
+    margin-bottom: 10px;
+}
+
+.cart {
+    width: 50px;
+    height: 50px;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.totalPrice {
+    font-weight: bold;
+    color: black;
+}
+
+.login {
+    margin-top: 10px;
+}
+
+.popText {
+    color:white;
+    margin-top: 50px;
+    border-bottom: 5px solid white;
+}
+
+.productCard, .productImg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.socialIcon {
+    /* margin-left: 10px; */
+}
+
+.thankYou, .thankYouP {
+    color: white;
+    margin-top: 100px;
+}
+
+
+.deDankU {
+    color: white;
+}
+
+.login-container {
+    margin-top: 150px;
+    margin-bottom: 12.5%;
+    height: 100vh;
+  }
+
+.form-check-label {
+    color: white;
+}
+
+.error {
+    margin-top: 150px;
+    color: white;
+}
+
+.error404 {
+    background-color: red;
+    border: solid 5px black;
+    border-radius: 5px;
+}
+
+.errorMessage {
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.errorDirect {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.errorMain {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.gifer.com%2Forigin%2Fc4%2Fc4e585501041d76b475c301fa9f47779_w200.gif&f=1&nofb=1&ipt=a7c3b57c0dea73ab62bcb0b401904cd724d51fb5c37b6839ab90435eb25b0bbb&ipo=images);
+}
