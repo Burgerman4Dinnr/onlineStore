@@ -15,7 +15,7 @@ const Login = () => {
       return;
     }
   
-    fetch('http://localhost:3000/api/users', {
+    fetch('http://localhost:3000/api/user/create', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

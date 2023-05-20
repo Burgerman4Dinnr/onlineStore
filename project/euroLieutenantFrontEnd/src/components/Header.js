@@ -1,12 +1,13 @@
-import Navbar from './Navbar';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const Header = () => {
   return (
     <header className="header fixed-top">
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-6">
             <Link to="/">
               <img
                 src="/images/euroLieutenant.png"
@@ -15,21 +16,10 @@ const Header = () => {
               />
             </Link>
           </div>
-          <div className="col-4">
-            <div className="login text-center">
+          <div className="col-6">
+            <div className="login text-end">
               <Link to="/login">
                 <button className="logBtn">Log In</button>
-              </Link>
-            </div>
-          </div>
-          <div className="col-4">
-            <div className="checkout text-end">
-              <Link to="/checkout">
-                <img
-                  src="/images/cart.png"
-                  alt="checkout"
-                  className="cart img-fluid"
-                />
               </Link>
             </div>
           </div>
