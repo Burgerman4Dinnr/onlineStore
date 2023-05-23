@@ -1,10 +1,6 @@
 const express = require('express')
 const router = express.Router()
 const PORT = process.env.PORT || 3000
-const fetch = (...args)=> import('node-fetch').then(({ default: fetch })=> fetch(...args))
-let count
-
-// router.use(express.static("public"))
 
 /**
  * Build API
@@ -27,24 +23,5 @@ router.use('/api/user', userRoutes)
 
 const contactsRoutes = require('./api/contactsRoutes')
 router.use('/api/contacts', contactsRoutes)
-
-//home page => localhost:3000
-
-//product page => localhost:3000/products
-
-
-
-
-//error page
-// router.get('*', (req, res) => {
-//     if (req.url === '/favicon.ico/') {
-//       res.end();
-//     } else {
-//       res.render('pages/404', {
-//         title: '404 Error',
-//         name: '404 Error'
-//       });
-//     }
-//   });  
 
 module.exports = router

@@ -9,17 +9,7 @@ import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import ThankYou from './components/ThankYou';
 import { Routes, Route } from 'react-router-dom';
-// import { useState, useEffect } from "react"
-
 const App = () => {
-  // const [data, setData] = useState([]);
-
-  // useEffect(() => {
-  //   console.log("Effect ran");
-  //   fetch("http://localhost:3000/api/")
-  //     .then(res => res.json())
-  //     .then(data => setData(data));
-  // }, []);
 
   return (
     <>

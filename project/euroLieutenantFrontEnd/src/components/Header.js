@@ -9,10 +9,7 @@ const Header = () => {
         <div className="row">
           <div className="col-6">
             <Link to="/">
-              <img
-                src="/images/euroLieutenant.png"
-                alt="Euro Lieutenant Logo"
-                className="img-fluid euroLieutenant"
+              <img src="/images/euroLieutenant.png" alt="Euro Lieutenant Logo" className="img-fluid euroLieutenant"
               />
             </Link>
           </div>

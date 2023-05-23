@@ -23,12 +23,12 @@ const Footer =()=> {
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="socialIcons text-end">
-                            <a href="./errorPage.html">
-                            <BsFacebook />
-                            <BsInstagram />
-                            <BsTwitter />
-                            </a>
+                    <div className="socialIcons text-end">
+                        <a href="./errorPage.html" className="socialIcons__container">
+                            <BsFacebook className='socialIcons_item' />
+                            <BsInstagram className='socialIcons_item' />
+                            <BsTwitter className='socialIcons_item' />
+                        </a>
                         </div>
                     </div>
                 </div>
